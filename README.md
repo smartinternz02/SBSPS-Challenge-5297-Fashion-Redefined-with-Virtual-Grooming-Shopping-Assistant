@@ -32,3 +32,12 @@
 ### Flask is an python package that is used to create web applications of our own wish with the help of HTML, CSS, and JS. We have used Flask package to create a website that provides fashion suggestion to the user by obtaining user image as input. The user image is provided to the CNN classfication model and it gives the class name as the output. With the help of the class name that is obtained, we planned to provide a set of fashion suggestions from the images that we possess. Here, the class name is also provided as input (intents) to the chatbot and the set of response is displayed in a presentable way to the user in the same website. We also created a home page using HTML, CSS, JS, Bootstrap to help the user to navigate and to provide tips for them. We also added the Chatbot that we created to the Home page of the website. The folowing block diagram depicts the workflow of Flask App for suggesting fashion trends:
 
 ![Flask_APP_FLOW](https://user-images.githubusercontent.com/58814795/131345489-a3c91732-ec77-44ae-97b6-90a59dcb995e.JPG)
+
+## Flask App for Virtual Try-on
+### Flask App for Virtual Try-on
+
+
+## Overall Application
+### The overall application acts as an complete package that provides various fashion suggestions from different platforms and e-Commerce applications. The main point is, it matches the user's interest and will best suit them and allows them to try out the costumes that they like before purchasing.  The folowing block diagram depicts the workflow of the entire application:
+
+![Block_DIag_flow](https://user-images.githubusercontent.com/58814795/131356728-a48103be-1b26-4193-8fe0-c1fc1e3e3ca3.JPG)
