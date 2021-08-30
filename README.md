@@ -30,7 +30,7 @@ The Convolutional Neural Network model is used to detect the class of the image 
 The Virtual Try-on
 
 
-## Flask App for suggesting fashion trends
+## Flask App for Suggesting Fashion Trends
 Flask is an python package that is used to create web applications of our own wish with the help of HTML, CSS, and JS. We have used Flask package to create a website that provides fashion suggestion to the user by obtaining user image as input. The user image is provided to the CNN classfication model and it gives the class name as the output. With the help of the class name that is obtained, we planned to provide a set of fashion suggestions from the images that we possess. Here, the class name is also provided as input (intents) to the chatbot and the set of response is displayed in a presentable way to the user in the same website. We also created a home page using HTML, CSS, JS, Bootstrap to help the user to navigate and to provide tips for them. We also added the Chatbot that we created to the Home page of the website. The folowing block diagram depicts the workflow of Flask App for suggesting fashion trends:
 
 ![Flask_APP_FLOW](https://user-images.githubusercontent.com/58814795/131345489-a3c91732-ec77-44ae-97b6-90a59dcb995e.JPG)
