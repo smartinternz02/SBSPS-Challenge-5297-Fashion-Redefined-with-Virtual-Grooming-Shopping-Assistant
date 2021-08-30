@@ -7,8 +7,8 @@
 ## Contents
   * [Introduction](README.md#Intoduction)
   * [IBM Chatbot (Watson Assistant)](README.md#ibm-chatbot-watson-assiatant)
-  * [CNN Classfication Model](README.md##cnn-classfication-model)
-  * [Introduction](README.md#Intoduction)
+  * [CNN Classfication Model](README.md#cnn-classfication-model)
+  * [Virtual Try-on](README.md#virtual-try-on)
   * [Introduction](README.md#Intoduction)
 
 ## Introduction
