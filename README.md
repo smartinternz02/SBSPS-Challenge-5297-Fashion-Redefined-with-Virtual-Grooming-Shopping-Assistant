@@ -6,7 +6,7 @@
 
 ## Contents
   [Introduction](README.md#Intoduction)
-  [IBM Chatbot (Watson Assistant)](README.md#IBM Chatbot (Watson Assiatant))
+  [IBM Chatbot (Watson Assistant)](README.md#ibm-chatbot-watson-assiatant)
   [Introduction](README.md#Intoduction)
   [Introduction](README.md#Intoduction)
   [Introduction](README.md#Intoduction)
