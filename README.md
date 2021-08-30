@@ -5,11 +5,11 @@
 ![image](https://user-images.githubusercontent.com/58814795/131345636-2e42344f-c94d-47a2-94e9-05d556966e43.png)
 
 ## Contents
-  [Introduction](README.md#Intoduction)
-  [IBM Chatbot (Watson Assistant)](README.md#ibm-chatbot-watson-assiatant)
-  [Introduction](README.md#Intoduction)
-  [Introduction](README.md#Intoduction)
-  [Introduction](README.md#Intoduction)
+  * [Introduction](README.md#Intoduction)
+  * [IBM Chatbot (Watson Assistant)](README.md#ibm-chatbot-watson-assiatant)
+  * [Introduction](README.md#Intoduction)
+  * [Introduction](README.md#Intoduction)
+  * [Introduction](README.md#Intoduction)
 
 ## Introduction
 ### Fashion trends are considered to be one of the most important aspect of everyone's life today. Many people finds it hard to get appropriate costumes as per their own interest that also suits their look. Our solution is to provide fashion suggestions for users based on their look and appearance and they can select from the list of suggestions provided. We are using CNN classification model that analyze the user's image and provide a set of suggestions based on the class that the model detected. We have also used IBM's chatbot service (Watson Assistant) which helps in providing suggestions by gathering basic inputs as parameters. We have also incorporated a special model that gets user image as input along with the cloth image of user's own interest and provide a wraped image and this process is named as virtual try-on. Our solution will enable user's to gather various fashion trends as suggestion from different e-Commerce and onlinne shopping websites/applications and importantly that suits them and  of their own interest.
