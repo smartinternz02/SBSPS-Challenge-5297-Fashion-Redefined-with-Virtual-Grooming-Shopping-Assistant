@@ -1,8 +1,8 @@
 # SBSPS-Challenge-5297-Fashion-Redefined-with-Virtual-Grooming-Shopping-Assistant
 
-<h2 align="center">
-    # Fashion Redefined with Virtual Grooming Shopping Assistant
-</h2>
+<h1 align="center">
+    Fashion Redefined with Virtual Grooming Shopping Assistant
+</h1>
 
 ![image](https://user-images.githubusercontent.com/58814795/131345636-2e42344f-c94d-47a2-94e9-05d556966e43.png)
 
