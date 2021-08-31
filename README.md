@@ -92,7 +92,6 @@ In the Notebooks folder, there are 5 notebook files
 ![Recommendation Links](https://user-images.githubusercontent.com/60148115/131563612-e536479e-ec99-435b-b46c-b144f0dc87fc.JPG)
 
 
-
 ![Try-on Result](https://user-images.githubusercontent.com/60148115/131563640-470a6dde-9191-48b5-8725-9538ab299532.JPG)
 
 
