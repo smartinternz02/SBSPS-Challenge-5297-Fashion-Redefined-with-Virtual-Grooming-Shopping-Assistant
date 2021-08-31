@@ -93,7 +93,7 @@ In the Notebooks folder, there are 5 notebook files
 ![Try-on Result](https://user-images.githubusercontent.com/60148115/131563640-470a6dde-9191-48b5-8725-9538ab299532.JPG)
 
 
-**ADVANTAGES AND DISADVANTAGES: **
+**ADVANTAGES AND DISADVANTAGES:**
 
  It enables users to find costume based on their interest that also best suits their looks. 
 
