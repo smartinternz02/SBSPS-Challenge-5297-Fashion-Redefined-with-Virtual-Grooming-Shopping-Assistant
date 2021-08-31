@@ -43,3 +43,7 @@ Flask App for Virtual Try-on
 The overall application acts as an complete package that provides various fashion suggestions from different platforms and e-Commerce applications. The main point is, it matches the user's interest and will best suit them and allows them to try out the costumes that they like before purchasing.  The folowing block diagram depicts the workflow of the entire application:
 
 ![Block_DIag_flow](https://user-images.githubusercontent.com/58814795/131356728-a48103be-1b26-4193-8fe0-c1fc1e3e3ca3.JPG)
+
+
+**GOOGLE DRIVE LINK FOR CHECKPOINTS :** https://drive.google.com/drive/folders/1f4pkV9mRzmUL9g3iSRFl9foQQhMAPOSj?usp=sharing
+**YOUTUBE DEMO LINK :** https://youtu.be/y0-iC4UvjZs
