@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<head>
+<meta charset="UTF-8">
+<title>Fashion Redefined | Fashion Suits Me</title>
+<style>
+h1
+{
+text-align: center;
+}
+
+.wraper
+{
+height: 5vh;
+display: flex;
+align-items:center;
+justify-content: center;
+}
+
+.typing
+{
+width: 33ch;
+animation: typing 3s steps(33), blink .5s step-end infinite alternate;
+align-items:center;
+justify-content: center;
+white-space: nowrap;
+overflow: hidden;
+border-right: 3px solid;
+font-family: monospace;
+font-size: 2em;
+}
+
+img
+{
+	height:220px;
+	width:142px;
+}
+#virtual
+{
+	height: 30px;
+	width: 100px;
+	position:absolute; 
+	top:0; 
+	right:0;
+	margin-top: 25px;
+	margin-right: 320px;
+}
+
+img:hover { 
+  outline: 3px solid lightgray;
+  transform: scale(1.1);
+} 
+.a
+{
+	text-decoration: none;
+	color: blue;
+}
+
+
+@keyframes typing
+{
+from
+{
+width: 0
+}
+}
+
+@keyframes blink
+{
+50%
+{
+border-color: transparent;
+}
+}
+
+.container {
+         margin-top:5px;
+         margin-left:400px;
+	 tab-size:26;
+         }
+</style>
+<link href="/static/img/logo.png" rel="icon">
+<link rel="stylesheet" type="text/css" href="/static/css/fashion.css">
+
+</head>
+<body>
+<button id="back"><a href="http://localhost:5000">Bac Home </a></button>
+<button id="virtual"><a href="http://af29-35-224-112-25.ngrok.io/"> Virtual Try-On </a></button>
+
+<div class = "wraper">
+<h1>Fashion Redefined - Fashion Suits Me</h1>
+</div>
+<div class="typing">
+Fashion Assistant Welcomes you!!!
+</div>
+<div>
+<h3>Select a image to upload...</h3>
+<p>
+{% with messages = get_flashed_messages() %}
+{% if messages %}
+<ul>
+{% for message in messages %}
+<li>{{ message }}</li>
+{% endfor %}
+</ul>
+{% endif %}
+{% endwith %}
+</p>
+
+<form method="post" action="/" enctype="multipart/form-data" id="form">
+<dl>
+<p>
+<input type="file" name="file" autocomplete="off" required>
+</p>
+</dl>
+<p>
+<input type="submit" value="Upload Image" id="submit">
+</p>
+</form>
+
+{% if filename %}
+<div>
+<img src="{{ url_for('static', filename='uploads/' + filename) }}">
+<br>
+<h3 align="center">Fashion that suits you are here:</h3>
+<hr>
+<h3>&emsp;&emsp;&emsp;&emsp;&emsp; Top Wears &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Bottom Wears&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Accessories</h3>
+<hr>
+{% for image in imagelist %}
+<img height="220" width="140" src = "{{ url_for('static', filename='Display_Images/'+ image) }}">
+{% endfor %}
+</div>
+<hr>
+<h3> These are some of the recommendations based on your looks, You can shop these products in the given below links</h3>
+<hr>
+<div class="container">
+	  {% for links in linkslist %}
+	    {{links | safe}} 
+	    &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+	    {% endfor %}
+	 </div>
+	<div class="container">
+	{% for links1 in linkslist1 %}
+	{{links1 | safe}}
+	&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+	{% endfor %}
+	</div>
+{% endif %}
+
+</body>
+</html>
