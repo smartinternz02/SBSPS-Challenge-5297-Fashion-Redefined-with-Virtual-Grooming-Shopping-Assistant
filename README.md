@@ -49,7 +49,7 @@ The overall application acts as an complete package that provides various fashio
 ![Block_DIag_flow](https://user-images.githubusercontent.com/58814795/131356728-a48103be-1b26-4193-8fe0-c1fc1e3e3ca3.JPG)
 
 
-Requirements for this project:
+**Requirements for this project:**
 
 ->Anaconda prompt
 
@@ -81,7 +81,7 @@ In the Notebooks folder, there are 5 notebook files
 **Virtual Try-On Notebook.ipynb** - is used for performing virtual try on using flask 
 
 
-UI Screenshots 
+**UI Screenshots** 
 
 ![Fashion Redefined Home Page](https://user-images.githubusercontent.com/60148115/131563584-74ef3dcc-ba27-4ebe-a6bc-fbcb95b3a951.JPG)
 
@@ -93,7 +93,24 @@ UI Screenshots
 ![Try-on Result](https://user-images.githubusercontent.com/60148115/131563640-470a6dde-9191-48b5-8725-9538ab299532.JPG)
 
 
+**ADVANTAGES AND DISADVANTAGES: **
 
+ It enables users to find costume based on their interest that also best suits their looks. 
+
+ It allows users to check how the costumes of their wish which fits them by using Virtual Try-on feature. 
+
+ It provides various set of matching fashion suggestions from different e-Commerce websites / applications along with their shopping links to purchase them. 
+
+ Chatbot’s suggestions also contain shopping links that will be useful for users to purchase their fashion products. 
+
+ It provides a complete fashion based try-on fetaures for individuals who aren’t aware of fashion trends and also for fashion geeks. 
+
+
+**Disadvantages:** 
+
+ The model’s prediction rate is an critical factor 
+
+ Need large dataset for training the model
 
 
 
