@@ -51,14 +51,21 @@ The overall application acts as an complete package that provides various fashio
 
 Requirements for this project:
 
-Anaconda prompt
-tensorflow==1.13.1
-torch==1.2.0
-torchvision==0.2.0
-Google colab
-Checkpoints folder
-keras==2.2.4
-Jupyter Notebook
+->Anaconda prompt
+
+->tensorflow==1.13.1
+
+->torch==1.2.0
+
+->torchvision==0.2.0
+
+->Google colab
+
+->Checkpoints folder
+
+->keras==2.2.4
+
+->Jupyter Notebook
 
 
 In the Notebooks folder, there are 5 notebook files 
