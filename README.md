@@ -121,3 +121,5 @@ In the Notebooks folder, there are 5 notebook files
 **GOOGLE DRIVE LINK FOR CHECKPOINTS:** https://drive.google.com/drive/folders/1f4pkV9mRzmUL9g3iSRFl9foQQhMAPOSj?usp=sharing
 
 **YOUTUBE DEMO LINK:** https://youtu.be/y0-iC4UvjZs
+
+**WEBSITE LINK:**  http://welcome-to-fashion-world.eu-gb.mybluemix.net/
